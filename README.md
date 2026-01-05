@@ -16,5 +16,13 @@
     | SCKEY | 否 | Server酱秘钥 |
 
     <b>URL 的值必须是机场网站的地址</b>，例如：<https://example.com>，尾部不要加 /。<br/>CONFIG 写法：一行用户一行密码。
-4. 到`Actions`中创建一个 workflow，运行一次，以后每天项目都会自动运行。
+    
+    若想签到不同的机场，须创建不同的 URL 和 CONFIG:
+
+    <img width="960" height="474" alt="image" src="https://github.com/user-attachments/assets/bbb3c1ce-16bc-4197-b66a-8cc4c4f5bc9e" />
+
+4. 到`Actions`中为每个机场创建一个 workflow，根据创建的`Secrets`填写 Run sign 中 env 部分变量的值，以后每天项目都会自动运行。
+
+    <img width="330" height="120" alt="image" src="https://github.com/user-attachments/assets/063f1ce5-a941-4b56-925f-84acca4ee651" />
+
 5. 最后，可以到`Run sign`查看签到情况，同时也会也会将签到详情推送到 Server酱。
