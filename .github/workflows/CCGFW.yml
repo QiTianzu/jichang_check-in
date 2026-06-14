@@ -1,4 +1,4 @@
-name: "CCGFW Checkin"
+name: "CCGFW Check-in"
 
 on:
   schedule:
