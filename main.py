@@ -29,7 +29,7 @@ def sign(order,user,pwd):
                 response = json.loads(res)
                 print(response['msg'])
                 # 进行购买
-                if url == 'https://ccgfw.top':
+                if url == 'https://www.ccgfw.top':
                         buy_url = '{}/user/buy'.format(url)
                         data = {
                         'coupon': '',
